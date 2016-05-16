@@ -11,7 +11,7 @@ Use Java, TestNG, and Selenium to do Web automation test for http://store.demoqa
 2. Right click "testng_*.xml" such as "testng_chrome.xml" and select "Run";
 
 # Issue found
-1. In testVerifyMyDetails method, some fields' response are invalid, such as "firstName", "lastName", "phone", "postCode";
+1. In `testVerifyMyDetails` method, some fields' response are invalid, such as "firstName", "lastName", "phone", "postCode";
 
 # Potential Problems of This Project
-1. Sometimes, testAddIPhone4s2MyCart and testRemoveFromMyCart may be failure because don't use "wait until", and need to improve in the future.
+1. Sometimes, `testAddIPhone4s2MyCart` and `testRemoveFromMyCart` may be failure because don't use "wait until", and need to improve in the future.
