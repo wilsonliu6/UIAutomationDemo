@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IETest" verbose="1" >
+    <parameter name="browser" value="IE"/>
+    <test name="functions" >
+        <classes>
+            <class name="com.store.automation.web.IPhonePageTest"/>
+            <class name="com.store.automation.web.MyDetailsPageTest"/>
+            <class name="com.store.automation.web.RemoveFromCartPageTest"/>
+        </classes>
+    </test>
+</suite>
